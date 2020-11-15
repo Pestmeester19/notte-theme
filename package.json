@@ -1,0 +1,38 @@
+{
+    "name": "notte",
+    "displayName": "Notte",
+    "description": "A dark theme inspired by the moon",
+    "icon": "images/notte.png",
+    "version": "0.0.1",
+    "license": "MIT",
+    "publisher": "Pestmeester",
+    "author": {
+        "name": "Ricardo Monteiro",
+        "url": "https://github.com/Pestmeester19"
+    },
+    "repository": {
+        "url": "https://github.com/Pestmeester19/notte-theme"
+    },
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Notte",
+                "uiTheme": "vs-dark",
+                "path": "./themes/notte.json"
+            }
+        ]
+    },
+    "keywords": [
+        "theme",
+        "dark",
+        "notte",
+        "moon"
+    ]
+
+}
